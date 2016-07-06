@@ -59,8 +59,8 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 source $ZSH/oh-my-zsh.sh
 
 # alias
-alias rm "rm -i"
-alias cp "cp -i"
+alias rm='rm -i'
+alias cp='cp -i'
 
 # phpbrew
 [[ -e ~/.phpbrew/bashrc ]] && source ~/.phpbrew/bashrc
